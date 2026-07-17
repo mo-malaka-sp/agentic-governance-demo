@@ -1,0 +1,27 @@
+# Dependencies & build
+node_modules/
+cdk/agents/agentcore-bundle/
+
+# CDK
+cdk/cdk.out/
+cdk/**/*.js
+cdk/**/*.d.ts
+!cdk/jest.config.js
+
+# Local config (never commit credentials)
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Verify output
+/tmp/bedrock-agent-out.json
+/tmp/agentcore-out.json
